@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4efe9;
+}
+header{
+    padding: 40px 0; 
+    margin-bottom: 80px;
+}
+.container{
+    max-width: 1200px; 
+    margin: auto; }
+.d-flex{
+    display: flex; 
+    justify-content: space-between;
+}
+#navigation{
+    display:flex; 
+    list-style: none;
+}
+.item_link{
+    text-decoration: none; 
+    font-family: inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
