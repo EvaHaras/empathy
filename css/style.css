@@ -21,6 +21,7 @@ header{
 #navigation{
     display:flex; 
     list-style: none;
+    background-color: aquamarine;
 }
 .item_link{
     text-decoration: none; 
