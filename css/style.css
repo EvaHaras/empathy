@@ -117,8 +117,7 @@ line-height: 20px; /* 142.857% */
 }
 .relief{
     margin: auto; 
-    padding-top: 270px; 
-    padding-bottom: 78px; 
+    padding-top: 270px;
     background-color: #FFD394; 
     background-image: url('img/bottom.png');
     background-position: bottom -240px left 0px; 
@@ -241,4 +240,239 @@ letter-spacing: 0.252px;
 }
 .how_it_work li:last-of-type:before{
     content: "3";
+}
+.phone{
+    background-color:#F4EFE9;
+}
+.phone .container{
+    max-width: 1200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin: auto;
+}
+.built{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.built article{
+    text-align: end;
+}
+.built h2{
+padding-top: 207px;
+color: #1E1928;
+text-align: right;
+font-family: 'Roboto', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+}
+.built p {
+    padding-top: 28px;
+    max-width: 587px;
+    color: rgba(30, 25, 40, 0.80);
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+}
+.built div{
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.built div .back{
+    position: relative;
+}
+.built div .front{
+    position: absolute;
+    height: 393px;
+    z-index: 1;
+    right: 27%;
+    top: 2255px;
+
+}
+.standing{
+    padding-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.standing div {
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.standing div .back{
+    position: relative;
+}
+.standing div .front{
+    position: absolute;
+    width: 545px;
+    z-index: 1;
+    right: 49.5%;
+    top: 2888px;
+}
+.standing h2{
+    padding-top: 207px;color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 131.25% */
+}
+.standing p{
+    padding-top: 28px;
+    max-width: 597px;
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+}
+.easily{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.easily article{
+    text-align: end;
+}
+.easily h2{
+padding-top: 207px;
+color: #1E1928;
+text-align: right;
+font-family: 'Roboto', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+}
+.easily p {
+    padding-top: 28px;
+    max-width: 587px;
+    color: rgba(30, 25, 40, 0.80);
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+}
+.easily div{
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.easily div .back{
+    position: relative;
+}
+.easily div .front{
+    position: absolute;
+    height: 442px;
+    z-index: 1;
+    right: 31.5%;
+    top: 3611px;
+
+}
+.paperwork{
+    padding-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.paperwork div {
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.paperwork div .back{
+    position: relative;
+}
+.paperwork div .front{
+    position: absolute;
+    width: 226px;
+    z-index: 1;
+    right: 57.5%;
+    top: 4326px;
+}
+.paperwork h2{
+    padding-top: 207px;color: #1E1928;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 131.25% */
+}
+.paperwork p{
+    padding-top: 28px;
+    max-width: 597px;
+    color: rgba(30, 25, 40, 0.80);
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+}
+
+.understand{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+}
+.understand article{
+    text-align: end;
+}
+.understand h2{
+padding-top: 207px;
+color: #1E1928;
+text-align: right;
+font-family: 'Roboto', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 131.25% */
+}
+.understand p {
+    padding-top: 28px;
+    max-width: 587px;
+    color: rgba(30, 25, 40, 0.80);
+text-align: right;
+font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.252px;
+}
+.understand div{
+    max-width: 600px;
+    height: 600px;
+    margin: auto;
+}
+.understand div .back{
+    position: relative;
+}
+.understand div .front{
+    position: absolute;
+    height: 188px;
+    z-index: 1;
+    right: 32.5%;
+    top: 5095px;
 }
