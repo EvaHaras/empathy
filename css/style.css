@@ -241,6 +241,8 @@ letter-spacing: 0.252px;
 .how_it_work li:last-of-type:before{
     content: "3";
 }
+
+
 .phone{
     background-color:#F4EFE9;
 }
@@ -281,21 +283,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 letter-spacing: 0.252px;
-}
-.built div{
-    max-width: 600px;
-    height: 600px;
-    margin: auto;
-}
-.built div .back{
-    position: relative;
-}
-.built div .front{
-    position: absolute;
-    height: 393px;
-    z-index: 1;
-    right: 27%;
-    top: 2255px;
 
 }
 .standing{
@@ -305,21 +292,7 @@ letter-spacing: 0.252px;
     display: flex;
     justify-content: center;
 }
-.standing div {
-    max-width: 600px;
-    height: 600px;
-    margin: auto;
-}
-.standing div .back{
-    position: relative;
-}
-.standing div .front{
-    position: absolute;
-    width: 545px;
-    z-index: 1;
-    right: 49.5%;
-    top: 2888px;
-}
+
 .standing h2{
     padding-top: 207px;color: #1E1928;
     font-family: 'Roboto', sans-serif;
@@ -371,43 +344,14 @@ font-weight: 400;
 line-height: 30px; /* 166.667% */
 letter-spacing: 0.252px;
 }
-.easily div{
-    max-width: 600px;
-    height: 600px;
-    margin: auto;
-}
-.easily div .back{
-    position: relative;
-}
-.easily div .front{
-    position: absolute;
-    height: 442px;
-    z-index: 1;
-    right: 31.5%;
-    top: 3611px;
 
-}
+
 .paperwork{
     padding-top: 80px;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
     justify-content: center;
-}
-.paperwork div {
-    max-width: 600px;
-    height: 600px;
-    margin: auto;
-}
-.paperwork div .back{
-    position: relative;
-}
-.paperwork div .front{
-    position: absolute;
-    width: 226px;
-    z-index: 1;
-    right: 57.5%;
-    top: 4326px;
 }
 .paperwork h2{
     padding-top: 207px;color: #1E1928;
@@ -430,9 +374,8 @@ letter-spacing: 0.252px;
 }
 
 .understand{
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 80px 40px;
+
     display: flex;
     justify-content: center;
 }
@@ -461,18 +404,4 @@ font-weight: 400;
 line-height: 30px; /* 166.667% */
 letter-spacing: 0.252px;
 }
-.understand div{
-    max-width: 600px;
-    height: 600px;
-    margin: auto;
-}
-.understand div .back{
-    position: relative;
-}
-.understand div .front{
-    position: absolute;
-    height: 188px;
-    z-index: 1;
-    right: 32.5%;
-    top: 5095px;
-}
+
