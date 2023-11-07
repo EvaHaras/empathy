@@ -116,20 +116,23 @@ line-height: 20px; /* 142.857% */
     padding-top: 73px;
 }
 .relief{
-    margin: auto; 
     padding-top: 270px;
     background-color: #FFD394; 
     background-image: url('img/bottom.png');
     background-position: bottom -240px left 0px; 
     background-repeat: no-repeat;
+    position: relative;
 }
-.relief .container{
+.white{
     max-width: 1200px; 
+    width: 100%;
     min-height: 380px; 
-    margin: auto;
     border-radius: 8px; 
     background: #FFF;
     text-align: center;
+    position: absolute;
+    top: -190px;
+    left: calc(50% - 600px);
 }
 .relief h3{
     padding-top: 80px;
@@ -173,7 +176,7 @@ line-height: 20px; /* 142.857% */
  
 .how_it_work{
     max-width: 1200px;
-    padding-top: 80px;
+    
     display: flex;
     justify-content: space-between;
     margin: auto;
