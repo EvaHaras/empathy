@@ -163,7 +163,7 @@
     }
 }
 @media screen and (max-width: 800px){
-    .library div{
+    .library_base{
         padding: 0px;
         flex-wrap: wrap;
         gap: 14px;

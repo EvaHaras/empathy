@@ -428,7 +428,7 @@ letter-spacing: 0.252px;
     letter-spacing: 0.252px;
 
 }
-.library div{
+.library_base{
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
@@ -436,7 +436,7 @@ letter-spacing: 0.252px;
     text-align: center;
     margin-bottom: 80px;
 }
-.library article{
+.library_base article{
     border-radius: 8px;
     background-color: #FFF;
     min-height: 160px;
@@ -444,12 +444,13 @@ letter-spacing: 0.252px;
     width: 100%;
     margin: auto;
 }
-.library img{
+.library_base article img{
     padding-top: 12px;
     padding-bottom: 12px;
     max-width: 88px;
+    margin: auto;
 }
-.library p{
+.library_base article p{
    color: #1E1928;
 text-align: center;
 font-family: 'Inter', sans-serif;
