@@ -578,6 +578,7 @@ font-size: 65px;
     border-radius: 20px;
     position: relative;
     margin-top: 16px;
+    transition: 0.2s ease;
 }
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
     color: #1E1928;
@@ -597,7 +598,8 @@ font-size: 65px;
     border-right: ridge black;
     border-radius: 0 0 20px 20px;
     background-color: #f8f3db;
-    height: auto !important;
+    
+    
 }
 .faq .ui-accordion .ui-accordion-header::after{
     display: inline-block;
@@ -607,6 +609,7 @@ font-size: 65px;
     height: 20px;
     position:  absolute;
     right: 40px;
+    
 }
 .faq .ui-icon-triangle-1-e{
     display: none;
