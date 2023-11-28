@@ -118,9 +118,6 @@ line-height: 20px; /* 142.857% */
 .relief{
     padding-top: 270px;
     background-color: #FFD394; 
-    background-image: url('img/bottom.png');
-    background-position: bottom -240px left 0px; 
-    background-repeat: no-repeat;
     position: relative;
 }
 .white{
@@ -564,8 +561,38 @@ font-style: normal;
 font-weight: 400;
 line-height: 36px; 
 }
-
-
+.faq{
+    padding: 100px;
+    background-color: #FFF;
+}
+.faq h4{
+    color:black;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 65px;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background-color: #FFF;
+    border: solid 2px black;
+    padding: 15px;
+    border-radius: 20px;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    color: #1E1928;
+    border-top: ridge black;
+    border-bottom: none;
+    border-left: ridge black;
+    border-right: ridge black;
+    border-radius:  20px 20px 0 0;
+    
+}
+.faq .ui-widget-content{
+    border-top: none;
+    border-bottom: ridge black;
+    border-left: ridge black;
+    border-right: ridge black;
+    border-radius: 0 0 20px 20px;
+}
 
 
 

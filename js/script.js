@@ -35,5 +35,8 @@ $(document).ready(function(){
                 items:9
             }
         }
-    });
+});
+    $( function() {
+        $( "#accordion" ).accordion();
+      } );
 });
