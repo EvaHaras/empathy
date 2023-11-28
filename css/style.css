@@ -574,8 +574,10 @@ font-size: 65px;
 .faq .ui-accordion .ui-accordion-header{
     background-color: #FFF;
     border: solid 2px black;
-    padding: 15px;
+    padding: 15px 35px;
     border-radius: 20px;
+    position: relative;
+    margin-top: 16px;
 }
 .faq .ui-accordion .ui-accordion-header.ui-state-active{
     color: #1E1928;
@@ -584,6 +586,8 @@ font-size: 65px;
     border-left: ridge black;
     border-right: ridge black;
     border-radius:  20px 20px 0 0;
+    background-color: #f8f3db;
+    padding: 1em 2.2em 0 2.2em;
     
 }
 .faq .ui-widget-content{
@@ -592,6 +596,32 @@ font-size: 65px;
     border-left: ridge black;
     border-right: ridge black;
     border-radius: 0 0 20px 20px;
+    background-color: #f8f3db;
+    height: auto !important;
+}
+.faq .ui-accordion .ui-accordion-header::after{
+    display: inline-block;
+    content: "";
+    background-image: url('../img/bottom_arrow.svg');
+    width: 25px;
+    height: 20px;
+    position:  absolute;
+    right: 40px;
+}
+.faq .ui-icon-triangle-1-e{
+    display: none;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active::after{
+    display: inline-block;
+    content: "";
+    background-image: url('../img/top_arrow.svg');
+    width: 25px;
+    height: 20px;
+    position:  absolute;
+    right: 40px;
+}
+.faq .ui-icon{
+    display: none;
 }
 
 
