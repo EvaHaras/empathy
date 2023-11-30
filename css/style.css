@@ -17,7 +17,7 @@ header{
     display: flex; 
     justify-content: space-between;
 }
-#navigation{
+.navigation{
     display:flex; 
     list-style: none;
 }
@@ -38,7 +38,8 @@ line-height: 20px; /* 142.857% */
     max-width: 1200px; 
     margin: auto; 
     display: flex; 
-    justify-content: space-between
+    justify-content: space-between;
+    padding-top: 130px;
 }
 .losing article{
     max-width: 549px;
@@ -626,9 +627,11 @@ font-size: 65px;
 .faq .ui-icon{
     display: none;
 }
-.mobile_menu{
-    display: none;
-}
+
+
+
+
+
 
 
 
