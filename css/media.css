@@ -173,6 +173,16 @@
     header nav {
         display: none;
     }
+    .logotype{
+        display: none;
+    }
+    header{
+        margin: 0;
+        padding: 20px 0;
+    }
+    .mobile_menu{
+        display: block;
+    }
     .built{
         flex-direction: column;
         

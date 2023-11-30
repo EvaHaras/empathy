@@ -626,6 +626,9 @@ font-size: 65px;
 .faq .ui-icon{
     display: none;
 }
+.mobile_menu{
+    display: none;
+}
 
 
 
