@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ header{
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 20px; /* 142.857% */
+line-height: 20px; 
     text-decoration: none; 
     margin-left: 40px;
 }
@@ -54,7 +54,7 @@ line-height: 20px; /* 142.857% */
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; 
     letter-spacing: 0.252px
 }
 .losing p:first-of-type{
@@ -148,7 +148,7 @@ line-height: 20px; /* 142.857% */
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px; 
     letter-spacing: 0.252px;
     max-width: 653px;
     display: block;
@@ -184,7 +184,7 @@ line-height: 20px; /* 142.857% */
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-line-height: 58px; /* 120.833% */
+line-height: 58px; 
 }
 .how_it_work ul{
     list-style: none;
@@ -196,7 +196,7 @@ line-height: 58px; /* 120.833% */
 font-size: 17px;
 font-style: normal;
 font-weight: 700;
-line-height: 26px; /* 152.941% */
+line-height: 26px; 
 letter-spacing: 0.252px;
 margin-left: 60px;
 margin-top: -30px;
@@ -212,7 +212,7 @@ margin-top: -30px;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
+line-height: 24px; 
 letter-spacing: 0.176px;
 }
 .how_it_work li:before{
@@ -268,8 +268,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: 42px; /* 131.25% */
-}
+line-height: 42px;
 .built p {
     padding-top: 28px;
     max-width: 587px;
@@ -279,7 +278,7 @@ font-family: 'Inter', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 
 }
@@ -297,7 +296,7 @@ letter-spacing: 0.252px;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 42px; /* 131.25% */
+    line-height: 42px; 
 }
 .standing p{
     padding-top: 28px;
@@ -307,7 +306,7 @@ letter-spacing: 0.252px;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 }
 .easily{
@@ -328,7 +327,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: 42px; /* 131.25% */
+line-height: 42px; 
 }
 .easily p {
     padding-top: 28px;
@@ -339,7 +338,7 @@ font-family: 'Inter', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 }
 
@@ -357,7 +356,7 @@ letter-spacing: 0.252px;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 42px; /* 131.25% */
+    line-height: 42px; 
 }
 .paperwork p{
     padding-top: 28px;
@@ -367,7 +366,7 @@ letter-spacing: 0.252px;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 }
 
@@ -388,7 +387,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: 42px; /* 131.25% */
+line-height: 42px;
 }
 .understand p {
     padding-top: 28px;
@@ -399,7 +398,7 @@ font-family: 'Inter', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 166.667% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 }
 .library{
@@ -419,7 +418,7 @@ letter-spacing: 0.252px;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px; /* 152.941% */
+    line-height: 26px;
     letter-spacing: 0.252px;
 
 }
@@ -452,7 +451,7 @@ font-family: 'Inter', sans-serif;
 font-size: 12px;
 font-style: normal;
 font-weight: 700;
-line-height: 16px; /* 133.333% */
+line-height: 16px; 
 }
 .library a{
     border-radius: 9999px;
@@ -496,7 +495,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
-line-height: 42px; /* 131.25% */
+line-height: 42px; 
 }
 .security p{
     padding: 28px;
@@ -509,7 +508,7 @@ font-family: 'Inter', sans-serif;
 font-size: 17px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 176.471% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 }
 .quote{
@@ -524,7 +523,7 @@ font-family: 'Inter', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px; /* 187.5% */
+line-height: 30px; 
 letter-spacing: 0.252px;
 padding-top: 144px;
 }
@@ -535,7 +534,7 @@ padding-top: 144px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; 
     letter-spacing: 0.252px;
     padding-top: 32px;
     padding-bottom: 184px;
@@ -548,7 +547,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 96px;
 font-style: normal;
 font-weight: 400;
-line-height: 96px; /* 100% */
+line-height: 96px; 
 }
 .phrase{
     color: #F4EFE9;
@@ -633,4 +632,4 @@ font-size: 65px;
 
 
 
-
+ */

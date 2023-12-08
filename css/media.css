@@ -1,10 +1,10 @@
-@media screen and (max-width: 1340px) {
+/* @media screen and (max-width: 1340px) {
     .library div{
         gap: 10px
     }
     
-}
-@media screen and (max-width: 1225px) {
+} */
+/* @media screen and (max-width: 1225px) {
     .white {
         position: static;
         margin: auto;
@@ -40,8 +40,8 @@
     .container{
         padding: 0 15px;
     }
-}
-@media  screen and (max-width: 960px) {
+} */
+/* @media  screen and (max-width: 960px) {
     .how_it_work h2{
         margin: auto;
         margin-bottom: 30px;
@@ -94,14 +94,14 @@
         max-width: 450px;
     }
     .understand p{
-        max-width: 500px;
+        max-width: 450px;
 
     }
     .understand h2{
         padding-top: 61px;
     }
-}
-@media screen and (max-width:820px){
+} */
+/* @media screen and (max-width:820px){
     .built{
         margin-top: 50px;
         margin-left: 15px;
@@ -161,10 +161,10 @@
     .understand img{
         max-width: 300px;
     }
-    
+     */
 
     
-@media screen and (max-width: 800px){
+/* @media screen and (max-width: 800px){
     .item_link{
         margin-left: 0;
     }
@@ -184,7 +184,7 @@
     -webkit-transition: -webkit-transform 0.5s;
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s;
-    /* Force Hardware Acceleration in WebKit */
+    
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -222,7 +222,7 @@
     width: 45px;
     bottom: 10px;
     
-    /* replace text with background image */
+    
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
@@ -231,7 +231,6 @@
     .cd-3d-nav-trigger span,
     .cd-3d-nav-trigger span::before,
     .cd-3d-nav-trigger span::after {
-      /* hamburger icon in CSS */
       position: absolute;
       width: 28px;
       height: 3px;
@@ -239,14 +238,13 @@
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; }
     .cd-3d-nav-trigger span {
-      /* this is the central line */
       top: 21px;
       left: 8px;
       -webkit-transition: background 0.2s 0.5s;
       -moz-transition: background 0.2s 0.5s;
       transition: background 0.2s 0.5s; }
       .cd-3d-nav-trigger span::before, .cd-3d-nav-trigger span:after {
-        /* these are the upper and lower lines */
+       
         content: '';
         left: 0;
         -webkit-transition: -webkit-transform 0.2s 0.5s;
@@ -257,10 +255,8 @@
       .cd-3d-nav-trigger span::after {
         top: 8px; }
     .nav-is-visible .cd-3d-nav-trigger span {
-      /* hide line in the center */
       background-color: rgba(255, 255, 255, 0); }
       .nav-is-visible .cd-3d-nav-trigger span::before, .nav-is-visible .cd-3d-nav-trigger span::after {
-        /* keep visible other 2 lines */
         background-color: black; }
       .nav-is-visible .cd-3d-nav-trigger span::before {
         -webkit-transform: translateY(8px) rotate(-45deg);
@@ -276,7 +272,7 @@
         transform: translateY(-8px) rotate(45deg); }
   
   .cd-3d-nav-container {
-    /* this is the 3D navigation container */
+   
     position: fixed;
     top: -200px;;
     left: 0;
@@ -284,7 +280,7 @@
     width: 100%;
     background-color: #000000;
     visibility: hidden;
-    /* enable a 3D-space for children elements */
+ 
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -311,11 +307,11 @@
         height: 110px; } }
   
   .cd-3d-nav {
-    /* this is the 3D rotating navigation */
+  
     position: relative;
     height: 100%;
     background-color: #F4EFE9;
-    /* Force Hardware Acceleration */
+  
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
@@ -337,7 +333,7 @@
     -moz-transition: -moz-transform 0.5s;
     transition: transform 0.5s; }
     .cd-3d-nav::after {
-      /* menu dark cover layer - to enhance perspective effect */
+
       content: '';
       position: absolute;
       top: 0;
@@ -371,7 +367,7 @@
       -moz-transition: background-color 0.2s;
       transition: background-color 0.2s; }
       .cd-3d-nav a::before {
-        /* navigation icons */
+      
         content: '';
         height: 32px;
         width: 32px;
@@ -403,7 +399,7 @@
       -o-transform: translateZ(0);
       transform: translateZ(0); }
       .nav-is-visible .cd-3d-nav::after {
-        /* menu cover layer - hide it when navigation is visible */
+       
         opacity: 0;
         visibility: hidden;
         -webkit-transition: opacity 0.5s 0s, visibility 0s 0.5s;
@@ -418,7 +414,7 @@
         text-align: center;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        /* truncate text with ellipsis if too long */
+      
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis; }
@@ -432,7 +428,7 @@
           -o-transform: translateX(-50%);
           transform: translateX(-50%); } 
           .cd-marker {
-            /* line at the bottom of nav selected item */
+     
             position: absolute;
             bottom: 0;
             left: 0;
@@ -453,7 +449,7 @@
             -moz-transition: -moz-transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s;
             transition: transform 0.5s, left 0.5s, color 0.5s, background-color 0.5s; }
             .cd-marker::before {
-              /* triangle at the bottom of nav selected item */
+          
               content: '';
               position: absolute;
               bottom: 3px;
@@ -475,7 +471,7 @@
               -o-transform: translateZ(0);
               transform: translateZ(0); }
           
-          /* these are the colors of the markers - line + arrow */
+          
           .color-1 {
             color:#592141; }
           
@@ -486,11 +482,11 @@
             color:#592141; }
           
           .color-4 {
-            color:#592141; }}
+            color:#592141; }} */
   
 
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     
     
     }
@@ -574,16 +570,16 @@
     .understand img{
         padding-top: 40px;
         margin: auto;
-    }
+    } */
     
 
-}
-@media screen and (max-width: 664px) {
+
+/* @media screen and (max-width: 664px) {
     .losing .container{
         flex-direction: column;
     }
-}
-@media screen and (max-width:415px){
+} */
+/* @media screen and (max-width:415px){
     .white {
         padding-left: 15px;
         padding-right: 15px;
@@ -596,8 +592,8 @@
             .cd-3d-nav a {
                 padding: 6em 0 0;;
                 font-size: 1.2rem;}
-}
-@media screen and (max-width:356px){
+} */
+/* @media screen and (max-width:356px){
     form{
         flex-direction: column;
     }
@@ -614,8 +610,8 @@
             .cd-3d-nav a {
                 padding: 7em 0 0;;
                 font-size: 1.2rem;
-}
-@media screen and (max-width:335px){
+} */
+/* @media screen and (max-width:335px){
     .built img{
         max-width: 200px;
     }
@@ -638,8 +634,8 @@
             .cd-3d-nav a {
                 padding: 6em 0 0;;
                 font-size: 1rem;
-}
-@media screen and (max-width:280px){
+} */
+/* @media screen and (max-width:280px){
     .library .container{
         padding: 0px;
     }
@@ -651,7 +647,6 @@
         .item_link{
             display: none;
         }
-     }
-}
+     } */
 
-}}
+
